@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ingresa o registrate</title>
+    <link rel="stylesheet" href="css/bootstrap_login.css">
+</head>
+
+<body>
+    <div class="card text-center col-lg-6" style="widht=18rem">
+        <div class="card-header">
+          <ul class="nav nav-pills card-header-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Registrarse</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Oh! crea tu cuenta ahora...</h2>
+
+          <!--<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+            
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputName">Nombres</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Nombres">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputLastname">Apellidos</label>
+                <input type="text" class="form-control" id="inputLastname" placeholder="Apellidos">
+              </div>
+              <div class="form-group col-md-6">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+                    <label class="custom-control-label" for="customControlValidation2">Hombre</label>
+                  </div>
+              </div>
+              <div class="form-group col-md-6">
+                  <div class="custom-control custom-radio">
+                      <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+                      <label class="custom-control-label" for="customControlValidation3">Mujer</label>
+                      <div class="invalid-feedback">More example invalid feedback text</div>
+                    </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Teléfono</label>
+              <input type="number" class="form-control" id="inputPhone" placeholder="Número de teléfono">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputCity">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">Departamento</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Huila...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputZip">Dirección de residencia</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Correo electrónico</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Elige una contraseña">
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Recordar
+                </label>
+              </div>
+            </div>
+          </form>
+
+          <a href="#" class="btn btn-primary">Enviar</a>
+        </div>
+      </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
